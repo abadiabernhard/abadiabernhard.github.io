@@ -1,0 +1,200 @@
+
+body {
+	background-color: #e2e2e2;
+	min-width: 960px;
+	margin: 0;
+}
+section{
+	display: block;
+}
+
+.clearfix {
+	width: 960px;
+	margin: 0 auto;
+	float: center;
+}
+.clearfix:after {
+	clear:both;
+	content:"";
+	display:block;
+	line-height:0;
+	height:1%;
+	visibility:hidden;
+	float: center;
+}
+#banner {
+		display: -ms-flexbox;
+		-ms-flex-pack: center;
+		-ms-flex-align: center;
+		padding: 8em 0 6em 0;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		background-image: linear-gradient(white,#4e5944);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-top: 0;
+		min-height: 100vh;
+		height: 100vh !important;
+		position: relative;
+		text-align: center;
+		overflow: hidden;
+	}
+	
+#header {
+	background: #4e5944  repeat-x left bottom;
+	padding: 40px 0 46px;
+}
+.logo a{
+	color: #000;
+	font: 29px/30px "Times New Roman", Times, serif;
+}
+.navigation {
+	float: right;
+	list-style: none;
+	margin: 28px 0 0;
+	padding: 0;
+}
+.navigation li {
+	float: left;
+	margin-left: 30px;
+	position: relative;
+}
+.navigation li > a {
+	color: #b8c6ac;
+	font: bold 13px/24px Times, "Times New Roman", serif;
+	text-decoration: none;
+	text-shadow: 1px 1px #000;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.navigation li.active > a, .navigation li > a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.navigation li > div {
+	background-color: #888888;
+	display: none;
+	width: 110px;
+	position: absolute;
+	left: 0px;
+	top: 24px;
+}
+.navigation li:hover > div {
+	display: block;
+}
+.navigation li > div a {
+	color: #b8c6ac;
+	font: bold 13px/24px "Times New Roman", Times, serif;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+	text-decoration: underline;
+}
+.navigation li > div a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+h1 {
+	color: #57614e;
+	font: 29px/30px "Times New Roman", Times, serif;
+	margin: 0 0 12px;
+	text-transform: uppercase;
+}
+h2 {
+	color: #626262;
+	font: 19px/24px "Times New Roman", Times, serif;
+	letter-spacing: 2px;
+	margin: 0;
+	text-transform: uppercase;
+}
+p {
+	color: #626262;
+	font: 14px/24px Arial, Helvetica, sans-serif;
+	margin: 0 0 24px;
+}
+p a {
+	color: #626262;
+}
+p a:hover {
+	color: #333333;
+}
+.main {
+	margin-top: 50px;
+	margin-left: 150px;
+	width: 650px;
+	padding: 0 0 0 32px;
+	border: 1px solid;
+	margin-bottom: 50px;
+	background-image: linear-gradient(white,#4e5944);
+
+}
+.main h1 {
+	margin-bottom: 18px;
+}
+.main h2 {
+	margin-bottom: 12px;
+}
+.main h1 + h2 {
+	margin: 0;
+}
+.main h1 + div.frame3 {
+	margin-top: 36px;
+}
+.message label {
+	color: #626262;
+	display: block;
+	font: 13px/24px Arial, Helvetica, sans-serif;
+}
+.message input[type='text'] {
+	height: 24px;
+	width: 590px;
+	margin: 0 0 18px;
+	padding: 0 4px;
+}
+.message textarea {
+	height: 110px;
+	width: 590px;
+	margin: 0 0 18px;
+	padding: 0 4px;
+	overflow: auto;
+	resize: none;
+}
+.message input[type='submit'] {
+	cursor: pointer;
+	border: none;
+}
+.message button{
+	margin-bottom: 20px;
+}
+.message a{
+	color:#000;
+}
+#footer {
+	background: #d9d9d9 url(../images/bg-footer.png) repeat-x left top;
+	border-top: 2px solid #fff;
+}
+#footnote {
+	background: url(../images/bg-footnote.jpg) repeat-x left top;
+	border-top: 1px solid #fff;
+	padding: 6px 0 3px;
+}
+#footnote p {
+	color: #b5c1aa;
+	font: 11px/30px Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding-right: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
